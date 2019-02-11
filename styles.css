@@ -1,0 +1,955 @@
+
+
+h4 {
+  font-family: Montserrat,sans-serif;
+}
+
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5pt;
+  font-size: 25px;
+}
+
+.title-heading {
+  margin-bottom: 30px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.space {
+  height: 60px;
+}
+
+/************************************************************
+	NAVBAR
+*********************************************************/
+
+.navbar {
+	background-color: rgba(255,255,255,0);
+	border:none;
+}
+
+.navbox {
+	padding-top: 10px;
+}
+
+.navbox .navbar-brand {
+	color:white;
+}
+
+#navbar ul li a {
+	color:white;
+	font-weight: 600;
+	font-size:14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: all 0.25s ease;
+}
+
+.colortoggle {
+	color:#ff9900;
+}
+
+#navbar ul li a:hover {
+	color:#ff9900;
+}
+
+
+.video-wrap {
+  width: 100%;
+  /* height: 100vh; */
+  height: auto;
+  min-height: 400px;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display:none;
+}
+
+/*********************************
+ SECTION 1
+**********************************/
+
+.section1 .wrapper {
+  width: 100%;
+  padding: 3%;
+  
+}
+
+.section1 h1 {
+  font-size: 23px;
+  padding-bottom: 10px;
+}
+
+.section1 p {
+  line-height: 28px;
+  font-size: 15px;
+  
+}
+
+.section {
+  width: 100%;
+  height: 40vh;
+}
+
+.section figcaption {
+  height: 100%;
+  width: 100%;
+}
+
+.section figcaption .wrapper {
+  position: relative;
+  top: 60%;
+  left: 10%;
+}
+
+.section h5 {
+  color: #fff;
+  position: relative;
+  text-shadow: -1px 1px 2px grey;
+  text-transform: uppercase;
+}
+
+/*********************************
+ SECTION 2
+**********************************/
+
+.section2 {
+  display:flex;
+  flex-direction: row;
+}
+
+.section2 figure {
+  background-image: url('img/item6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section2 h5 {
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.section h5:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: #69d2e7;
+  top: -10px;
+}
+
+.subsection {
+  height: 100%;
+  width: 50%;
+}
+
+.subsection2 {
+  background-color: #f38630;
+  display:flex;
+}
+
+.subsection2 button {
+  margin:auto;
+  display: block;
+  background-color: transparent;
+  border: 3px solid #000;
+  letter-spacing: 5px;
+  width: 80%;
+}
+
+.subsection2 a {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+  
+}
+
+/*********************************
+ SECTION 3
+**********************************/
+
+figure.section3 {
+  background-image: url('img/item3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section3 h5 {
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 10px;
+  text-shadow: -1px 1px 2px grey;
+  position: relative;
+}
+
+/*********************************
+ SECTION 4
+**********************************/
+figure.section4 {
+  background-image: url('img/item4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section4 h5 {
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 10px;
+  text-shadow: -1px 1px 2px grey;
+  position: relative;
+}
+
+/*********************************
+ SECTION 5
+**********************************/
+figure.section5 {
+  background-image: url('img/item5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section5 h5 {
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 10px;
+  text-shadow: -1px 1px 2px grey;
+  position: relative;
+}
+
+/*********************************
+ SECTION 6
+**********************************/
+figure.section6 {
+  background-image: url('img/item2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section6 h5 {
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 10px;
+  text-shadow: -1px 1px 2px grey;
+  position: relative;
+}
+
+/************************************************************
+	MISSION
+*********************************************************/
+.our-mission {
+  padding: 0 10px 0 10px;
+}
+
+.our-mission p {
+  font-size:16px;
+	color: #000;
+  line-height: 1.8em;
+  max-width: 900px;
+  margin: 0px auto;
+  
+	/* width:70%; */
+}
+
+/************************************************************
+	LESSONS
+*********************************************************/
+
+.class {
+  background-image: url('img/azucar-class.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.our-classes {
+  padding: 0 10px 0 10px;
+  
+}
+
+.our-classes p {
+  font-size:15px;
+	color: #000;
+	line-height: 1.7em;
+}
+
+#are-you {
+  text-transform: uppercase;
+  padding: 10px 0 10px 0;
+}
+
+/************************************************************
+	SCHEDULE
+*********************************************************/
+
+.contentbox {
+  margin-right:auto;
+  margin-left:auto;
+  text-align: center;
+}
+
+.contentslide {
+	/* float:left; */
+	/* width:20%; */
+	/* margin-right:25px;
+	margin-left:25px; */
+	border:1px solid #ccc;
+	border-radius: 3px;
+  /* transition: all .2s ease-in-out; */
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+
+/* .contentslide:hover{
+	top: -10px;
+	box-shadow: 0 0 11px rgba(33,33,33,.4); 
+} */
+
+.contentbox ul {
+	padding:0px;
+}
+
+.contentbox ul li {
+	list-style-type: none;
+	padding:0;
+}
+
+.head {
+	position: relative;
+	background-color: #fa6900;
+	padding:10px 10px 10px;
+	border-radius: 3px;
+	text-align: center;
+	width: 90%;
+	margin-top:10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.head h4 {
+	font-size:18px;
+	text-transform: uppercase;
+	color:white;
+	letter-spacing: 2px;
+}
+
+.schedule-content ul li  {
+	font-size:17px;
+	color:#888;
+	letter-spacing: 1px;
+	line-height: 25px;
+
+}
+
+.day {
+	color:#323232;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+  border-bottom: 1px dotted #888;
+  font-size: 20px;
+}
+
+.schedule-content {
+	padding-top: 20px;
+}
+
+.schedule-content ul li:nth-child(2) {
+	border-bottom:1px dotted #888;
+	padding-bottom:10px;
+
+}
+
+.schedule-content ul li:nth-child(3) {
+	padding-bottom:10px;
+	padding-top:10px;
+	border-bottom:1px dotted #888;
+}
+
+.schedule-content ul li:nth-child(4) {
+	padding-top:10px;
+}
+
+/************************************************************
+	EVENTS
+*********************************************************/
+
+.event {
+  background-image: url('img/events.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+ 
+}
+
+.our-events {
+  padding: 0 10px 0 10px;
+ 
+ 
+}
+
+.event-info {
+  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.our-events p {
+  font-size:15px;
+	color: #000;
+  line-height: 1.7em;
+}
+
+
+/************************************************************
+	YOUTUBE
+*********************************************************/
+
+.latest-shows {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.latest-shows iframe {
+  margin: 10px;
+  width: 90vw;
+  height: 210px;
+}
+
+.latest-shows h1 {
+  width: 100%;
+}
+
+.latest-shows h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: 400;
+  color: black;
+}
+
+.latest-shows p {
+  font-family: "La Belle Aurore";
+  font-size: 1.9rem;
+  color: #fa6900;
+  margin-bottom: 50px;
+}
+
+/************************************************************
+	MEMBERS
+*********************************************************/
+ul {
+  list-style: none;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.member-pictures {
+ 
+}
+
+.all {
+  padding: 10px 20px 30px 20px;
+ 
+}
+
+.show {
+  
+}
+
+.normal {
+ 
+}
+
+.member {
+  margin: 20px 0 20px 0;
+
+  
+ 
+}
+
+.member .name {
+  margin: 10px auto 10px auto;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.member .job {
+ font-size: 20px;
+ margin-top: -10px;
+}
+
+.member p {
+ text-align: center;
+ font-family: "Raleway";
+}
+
+.pic1 {
+  background-image: url('img/gus.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+ 
+}
+
+
+
+.pic2 {
+  background-image: url('img/gus2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+ 
+  
+}
+
+.pic3 {
+  background-image: url('img/alex.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+ 
+}
+
+.pic4 {
+  background-image: url('img/alex2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+ 
+}
+
+.pic5 {
+  background-image: url('img/james.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+}
+
+.pic6 {
+  background-image: url('img/james2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+}
+
+.pic7 {
+  background-image: url('img/kai.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+}
+
+.pic8 {
+  background-image: url('img/kai2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+}
+
+.pic9 {
+  background-image: url('img/soraya.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+}
+
+.pic10 {
+  background-image: url('img/soraya2.jpg');
+  background-size: cover;
+  background-position: right center;
+  height: 330px;
+}
+
+.pic11 {
+  background-image: url('img/michael.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+}
+
+.pic12 {
+  background-image: url('img/michael2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+}
+
+/*******************************************************
+	FOOTER
+*********************************************************/
+
+footer {
+  color: white;
+  background-color: #fa6900;
+  padding: 40px;
+}
+
+footer h3 {
+  letter-spacing: 1pt;
+  font-family: 'Raleway', sans-serif;
+  margin: 20px 0;
+  font-weight: bold;
+  
+}
+
+footer p {
+
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  background-image: url('img/3.jpg');
+  background-size: cover;
+  background-position: top center;
+  height: 250px;
+ 
+}
+
+footer .social-media {
+  width: 40px;
+  height: 40px;
+  display: inline;
+  margin-right: 15px;
+}
+
+.menu li a {
+  color: white;
+  
+}
+
+.copy {
+  margin-top: 20px;
+  opacity: 0.5;
+  color: white;
+}
+
+.copy a {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*********************************
+ MEDIA QUERIES
+**********************************/
+
+/***********************************
+
+small devices (Ipod, 768px and up)
+
+***************************************/
+@media (min-width: 768px) {
+
+  .video-wrap {
+    height: 100vh;
+  }
+
+  .video-text {
+    display: block;
+  }
+
+  .content {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 180vh;
+    width: 100%;
+    float: left;
+  }
+
+  /*********************************
+  SECTION 1
+  **********************************/
+
+  .section {
+    width: 50%;
+    height: 50%;
+  }
+
+  .section1 {
+    width: 50%;
+    height: 25%;
+  }
+
+  .section1 .wrapper {
+    margin: auto;
+    
+  }
+
+  .section1 p {
+    line-height: 25px;
+  }
+
+  /*********************************
+  SECTION 2
+  **********************************/
+  
+  .section2 {
+   flex-direction: row;
+   height: 25%;
+  }
+
+  /*********************************
+  SECTION 3
+  **********************************/
+  
+  
+  /*********************************
+  SECTION 4
+  **********************************/
+
+  /*********************************
+  SECTION 5
+  **********************************/
+  .section5 {
+    height: 25%;
+  }
+
+  /*********************************
+  SECTION 6
+  **********************************/
+
+  .section6 {
+    height: 25%;
+  }
+
+  /*********************************
+  LASTEST SHOWS
+  **********************************/
+  .latest-shows iframe {
+    width: 448px;
+    height: 252px;
+  }
+
+  .pic1 {
+    width: 30%;
+  }
+  
+  
+  
+  .pic2 {
+    width: 70%;
+  }
+  
+  .pic3 {
+    width: 30%;
+  }
+  
+  .pic4 {
+    width: 70%;
+  }
+  
+  .pic5 {
+    width: 30%;
+  }
+  
+  .pic6 {
+    width: 70%;
+  }
+  
+  .pic7 {
+    width: 30%;
+  }
+  
+  .pic8 {
+    width: 70%;
+  }
+
+  .pic9 {
+    width: 30%;
+  }
+  
+  .pic10 {
+    width: 70%;
+  }
+
+  .pic11 {
+    width: 30%;
+  }
+  
+  .pic12 {
+    width: 70%;
+  }
+
+  /***************************************************
+	MISSION
+  *********************************************************/
+  .our-mission p {
+  padding: 0 25px;
+  }
+
+  /********************************************************
+	LESSONS
+  *********************************************************/
+  .class {
+  background-image: url('img/azucar-class.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  
+  }
+
+  /*****************************************************
+	SCHEDULE
+  *********************************************************/
+
+  .contentbox {
+   
+  }
+
+  .contentslide {
+  margin-left: 20px;
+  width:45%;
+  }
+
+  /*******************************************************
+	EVENTS
+  *******************************************************/
+
+  .event {
+  height: 400px;
+  }
+
+  /*************************************************
+	MEMBERS
+  *************************************************/
+
+  .member {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/***********************************
+
+Medium devices (992px and up)
+
+***************************************/
+@media (min-width: 992px) {
+  
+  .section1 h1 {
+    font-size: 25px;
+    
+  }
+  
+  .section1 p {
+    font-size: 16px;
+    
+  }
+
+  /******************************************
+	MISSION
+  ********************************************/
+
+  /******************************************
+	SCHEDULE
+  ********************************************/
+
+  .contentslide {
+    width: 23%;
+    margin-left: 13px;
+  }
+
+  .member {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+ 
+
+}
+
+/***********************************
+
+Large devices (1200px and up)
+
+***************************************/
+@media (min-width: 1200px) {
+
+  .section1 h1 {
+    padding-top: 10px;
+  }
+
+  .section1 p {
+    line-height: 28px;
+    font-size: 17px;
+  }
+
+  .our-mission p {
+    font-size: 17px;
+  }
+
+  .our-classes p {
+    font-size: 16px;
+    line-height: 1.8em;
+    padding-right: 30px;
+   
+  }
+
+  .our-events p {
+    font-size: 16px;
+    line-height: 1.8em;
+    padding: 0px 20px;
+  }
+
+  
+
+ 
+
+}
