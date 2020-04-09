@@ -62,10 +62,10 @@
     })
 
     window.onscroll = function () { 
-      console.log(document.body.scrollTop)
+      console.log(window.pageYOffset)
     
      
-      if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+      if (window.pageYOffset >= 500) {
         // allA.forEach(a => {
         //   // a.classList.add("nav-colored");
         //   // a.classList.remove("nav-transparent");
