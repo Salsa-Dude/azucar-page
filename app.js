@@ -53,6 +53,33 @@
     event.target.playVideo();
   }
 
+
+    let nav = document.getElementById('navbar');
+    let mainNav = document.getElementById('main-navbar');
+    let allLi = Array.from(nav.querySelector('ul').children)
+    let allA = allLi.map(li => {
+      return li.querySelector("a");
+    })
+
+    window.onscroll = function () { 
+      console.log(document.body.scrollTop)
+     
+      if (document.body.scrollTop >= 600 || document.documentElement.scrollTop >= 600 ) {
+        allA.forEach(a => {
+          // a.classList.add("nav-colored");
+          // a.classList.remove("nav-transparent");
+          mainNav.classList.add("show-border")
+        })
+      } else {
+        allA.forEach(a => {
+          // a.classList.add("nav-transparent");
+          // a.classList.remove("nav-colored");
+          mainNav.classList.remove("show-border")
+        })
+      }
+    }
+ 
+
  
 
 
