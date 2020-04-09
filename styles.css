@@ -43,6 +43,10 @@ p {
 	border:none;
 }
 
+.show-border {
+  background-color: #f38630 !important;
+}
+
 .navbox {
 	padding-top: 10px;
 }
@@ -52,13 +56,22 @@ p {
 }
 
 #navbar ul li a {
-	color:white;
 	font-weight: 600;
 	font-size:14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  color: white;
 }
+
+/* .nav-colored { 
+  color: white !important;
+  font-weight: 700;
+}
+.nav-transparent { 
+  color:white !important;
+  font-weight: 700;
+} */
 
 .colortoggle {
 	color:#ff9900;
