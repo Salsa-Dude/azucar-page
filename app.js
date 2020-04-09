@@ -55,13 +55,15 @@
 
   window.onload = function() {
     let nav = document.getElementById('navbar');
-    let mainNav = document.getElementById('main-navbar');
+    // let mainNav = document.getElementById('main-navbar');
     let allLi = Array.from(nav.querySelector('ul').children)
     let allA = allLi.map(li => {
       return li.querySelector("a");
     })
 
-    window.onscroll = function () { 
+    var mainNav = document.getElementById('main-navbar');
+
+    document.onscroll = function () { 
       console.log(window.pageYOffset)
     
      
