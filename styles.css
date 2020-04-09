@@ -45,6 +45,7 @@ p {
 
 .show-border {
   background-color: #f38630 !important;
+  border: 2px red solid !important;
 }
 
 .navbox {

@@ -73,14 +73,14 @@
         //   // a.classList.remove("nav-transparent");
         //   mainNav.classList.add("show-border")
         // })
-        mainNav.classList.add("show-border")
+        mainNav.style.backgroundColor = "#f38630"
       } else {
         // allA.forEach(a => {
         //   // a.classList.add("nav-transparent");
         //   // a.classList.remove("nav-colored");
         //   mainNav.classList.remove("show-border")
         // })
-        mainNav.classList.remove("show-border")
+        mainNav.style.backgroundColor = "rgba(255,255,255,0)"
       }
     }
  
