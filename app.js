@@ -1,4 +1,27 @@
 
+var mainNav = document.getElementById('main-navbar');
+
+document.onscroll = function () { 
+  console.log(window.pageYOffset)
+
+ 
+  if (window.pageYOffset >= 500) {
+    // allA.forEach(a => {
+    //   // a.classList.add("nav-colored");
+    //   // a.classList.remove("nav-transparent");
+    //   mainNav.classList.add("show-border")
+    // })
+    mainNav.style.backgroundColor = "#f38630"
+  } else {
+    // allA.forEach(a => {
+    //   // a.classList.add("nav-transparent");
+    //   // a.classList.remove("nav-colored");
+    //   mainNav.classList.remove("show-border")
+    // })
+    mainNav.style.backgroundColor = "rgba(255,255,255,0)"
+  }
+}
+
 
 // Load the IFrame Player API code asynchronously.
    var tag = document.createElement('script');
@@ -61,29 +84,7 @@
   //     return li.querySelector("a");
   //   })
 
-    var mainNav = document.getElementById('main-navbar');
-
-    document.onscroll = function () { 
-      console.log(window.pageYOffset)
     
-     
-      if (window.pageYOffset >= 500) {
-        // allA.forEach(a => {
-        //   // a.classList.add("nav-colored");
-        //   // a.classList.remove("nav-transparent");
-        //   mainNav.classList.add("show-border")
-        // })
-        mainNav.style.backgroundColor = "#f38630"
-      } else {
-        // allA.forEach(a => {
-        //   // a.classList.add("nav-transparent");
-        //   // a.classList.remove("nav-colored");
-        //   mainNav.classList.remove("show-border")
-        // })
-        mainNav.style.backgroundColor = "rgba(255,255,255,0)"
-      }
-    }
- 
 
     
  
