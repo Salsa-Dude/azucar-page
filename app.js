@@ -53,13 +53,13 @@
     event.target.playVideo();
   }
 
-  window.onload = function() {
-    let nav = document.getElementById('navbar');
-    // let mainNav = document.getElementById('main-navbar');
-    let allLi = Array.from(nav.querySelector('ul').children)
-    let allA = allLi.map(li => {
-      return li.querySelector("a");
-    })
+  // window.onload = function() {
+  //   let nav = document.getElementById('navbar');
+  //   // let mainNav = document.getElementById('main-navbar');
+  //   let allLi = Array.from(nav.querySelector('ul').children)
+  //   let allA = allLi.map(li => {
+  //     return li.querySelector("a");
+  //   })
 
     var mainNav = document.getElementById('main-navbar');
 
@@ -83,7 +83,7 @@
         mainNav.classList.remove("show-border")
       }
     }
-  }
+ 
 
     
  
