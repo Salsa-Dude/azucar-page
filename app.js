@@ -3,9 +3,9 @@
 
 var mainNav = document.getElementById('main-navbar');
 
-window.addEventListener("scroll", function () {
+document.addEventListener("scroll", function () {
   
-  if (window.pageYOffset >= 500) {
+if (window.pageYOffset >= 500) {
     // allA.forEach(a => {
     //   // a.classList.add("nav-colored");
     //   // a.classList.remove("nav-transparent");
