@@ -63,19 +63,22 @@
 
     window.onscroll = function () { 
       console.log(document.body.scrollTop)
+    
      
-      if (document.body.scrollTop >= 600 || document.documentElement.scrollTop >= 600 ) {
-        allA.forEach(a => {
-          // a.classList.add("nav-colored");
-          // a.classList.remove("nav-transparent");
-          mainNav.classList.add("show-border")
-        })
+      if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+        // allA.forEach(a => {
+        //   // a.classList.add("nav-colored");
+        //   // a.classList.remove("nav-transparent");
+        //   mainNav.classList.add("show-border")
+        // })
+        mainNav.classList.add("show-border")
       } else {
-        allA.forEach(a => {
-          // a.classList.add("nav-transparent");
-          // a.classList.remove("nav-colored");
-          mainNav.classList.remove("show-border")
-        })
+        // allA.forEach(a => {
+        //   // a.classList.add("nav-transparent");
+        //   // a.classList.remove("nav-colored");
+        //   mainNav.classList.remove("show-border")
+        // })
+        mainNav.classList.remove("show-border")
       }
     }
  
