@@ -1,10 +1,10 @@
 
+
+
 var mainNav = document.getElementById('main-navbar');
 
-document.onscroll = function () { 
-  console.log(window.pageYOffset)
-
- 
+window.addEventListener("scroll", function () {
+  
   if (window.pageYOffset >= 500) {
     // allA.forEach(a => {
     //   // a.classList.add("nav-colored");
@@ -20,7 +20,13 @@ document.onscroll = function () {
     // })
     mainNav.style.backgroundColor = "rgba(255,255,255,0)"
   }
-}
+}, false);
+
+
+
+// document.onscroll = function () { 
+  
+// }
 
 
 // Load the IFrame Player API code asynchronously.
