@@ -53,7 +53,7 @@
     event.target.playVideo();
   }
 
-  document.addEventListener("DOMContentLoaded" , () => {
+  window.onload = function() {
     let nav = document.getElementById('navbar');
     let mainNav = document.getElementById('main-navbar');
     let allLi = Array.from(nav.querySelector('ul').children)
@@ -81,7 +81,7 @@
         mainNav.classList.remove("show-border")
       }
     }
-  })
+  }
 
     
  
